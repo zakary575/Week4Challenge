@@ -13,7 +13,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 950px;
+    height: 90%;
     width: 50%;
     flex-direction: column
 }
@@ -46,6 +46,24 @@ h1 {
 }
 
 
-#form {
+form{
     display: flex;
+    height: 100%;
+    width: 100%;
 }
+
+/* Dark Mode */
+.dark {
+    background-color:#243447;
+    height: 100vh;
+    color: #bebebe
+   
+  }
+
+  
+  /* Light Mode */
+  .light {
+    background-color: #f0ead6;
+    color: black;
+    height: 100vh;
+  }
