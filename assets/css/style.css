@@ -76,7 +76,7 @@ form input {
   border-width: 1px;
   color: #5f6368;
   font-size: 1.1em;
-  height: 45px;
+  height: 30px;
   line-height: 20px;
   margin: 15px;
   margin-top: 10px;
@@ -87,5 +87,5 @@ form input {
   transition-property: background-color, color;
   transition-timing-function: ease, ease;
   vertical-align: middle;
-  width: 100%;
+  width: 93%;
 }
