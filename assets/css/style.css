@@ -41,11 +41,19 @@ h1 {
   margin-right: 5px;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
 form {
   display: flex;
   height: 100%;
   width: 100%;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Dark Mode */
@@ -60,4 +68,24 @@ form {
   background-color: #f0ead6;
   color: black;
   height: 100vh;
+}
+
+form input {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  border-width: 1px;
+  color: #5f6368;
+  font-size: 1.1em;
+  height: 45px;
+  line-height: 20px;
+  margin: 15px;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 8px 8px 8px 8px;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.2s, 0.2s;
+  transition-property: background-color, color;
+  transition-timing-function: ease, ease;
+  vertical-align: middle;
+  width: 100%;
 }
