@@ -1,3 +1,8 @@
+
+body{
+    height: 100vh;
+}
+
 header {
   display: flex;
   justify-content: end;
@@ -22,7 +27,7 @@ div {
   width: 100%;
 }
 
-#title {
+#zak {
   border-right: 10px black double;
 }
 
@@ -59,7 +64,6 @@ form {
 /* Dark Mode */
 .dark {
   background-color: #243447;
-  height: 100vh;
   color: #bebebe;
 }
 
@@ -67,7 +71,6 @@ form {
 .light {
   background-color: #f0ead6;
   color: black;
-  height: 100vh;
 }
 
 form input {
