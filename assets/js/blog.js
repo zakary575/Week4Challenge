@@ -23,13 +23,13 @@ for (let i = 0; i < post.length;i++){
     content.textContent = blog.content
     content.setAttribute('id','content')
     const username = document.createElement('div')
-    username.textContent = `Posted by ${blog.username}`
+    username.textContent = `Posted by ${blog .username}`
     username.setAttribute('id','username')
     posts.appendChild(div)
     div.appendChild(title)
     div.appendChild(content)
     div.appendChild(username)
-
+    console.log(post)
 }
 }    
 
