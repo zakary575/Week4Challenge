@@ -14,19 +14,14 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  flex-direction: column;
 }
 
-/* Dark Mode */
-.dark {
-  background-color: #243447;
-  color: #bebebe;
+section{
+    display: flex;
+    flex-direction: column;
 }
 
-/* Light Mode */
-.light {
-  background-color: #f0ead6;
-  color: black;
-}
 
 #post {
   display: block;
