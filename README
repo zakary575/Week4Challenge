@@ -1,0 +1,16 @@
+# Zakary's Blog
+
+## Description
+
+A blog where you come to a landing page where you can submit a blog post and then are redirected to another page with the new blog post and past blog posts.
+
+
+## Usage
+
+There are input fields where the users can put in there username, title, and content to create a blog post. they can also check the dark mode light mode button to change the page from light to dark 
+
+
+## License
+
+MIT license
+
