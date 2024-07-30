@@ -12,16 +12,16 @@ const renderBlog = function () {
   for (let i = 0; i < post.length; i++) {
     const blog = post[i];
     const div = document.createElement("div");
-    div.setAttribute("id", "post");
+    div.setAttribute("class", "post");
     const title = document.createElement("h3");
     title.textContent = blog.title;
-    title.setAttribute("id", "title");
+    title.setAttribute("class", "title");
     const content = document.createElement("div");
     content.textContent = blog.content;
-    content.setAttribute("id", "content");
+    content.setAttribute("class", "content");
     const username = document.createElement("div");
     username.textContent = `Posted by ${blog.username}`;
-    username.setAttribute("id", "username");
+    username.setAttribute("class", "username");
     posts.appendChild(div);
     div.appendChild(title);
     div.appendChild(content);
