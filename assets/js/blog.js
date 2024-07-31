@@ -1,5 +1,6 @@
 const posts = document.querySelector("#posts");
 
+// function for the back button
 const back = function () {
   window.location.href = "index.html";
 };
@@ -21,7 +22,7 @@ const renderBlog = function () {
     content.setAttribute("class", "content");
     const username = document.createElement("div");
     username.textContent = `Posted by ${blog.username}`;
-    username.setAttribute("class", "username");
+    username.setAttribute("class    ", "username");
     posts.appendChild(div);
     div.appendChild(title);
     div.appendChild(content);

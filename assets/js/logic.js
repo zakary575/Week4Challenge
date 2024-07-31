@@ -2,6 +2,7 @@ const themeSwitcher = document.querySelector("#theme-switcher");
 const container = document.querySelector(".container");
 let mode = localStorage.getItem("mode");
 
+// function to grab light and dark mode from local storage so it persists from one page to the other
 function init() {
   if (mode === "dark") {
     container.setAttribute("class", "dark");
@@ -11,7 +12,7 @@ function init() {
   }
   return;
 }
-
+// event listener for the light mode dark mode button
 themeSwitcher.addEventListener("click", function () {
   // If mode is dark, apply light background
   if (mode === "dark") {
