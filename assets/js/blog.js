@@ -22,7 +22,7 @@ const renderBlog = function () {
     content.setAttribute("class", "content");
     const username = document.createElement("div");
     username.textContent = `Posted by ${blog.username}`;
-    username.setAttribute("class    ", "username");
+    username.setAttribute("class", "username");
     posts.appendChild(div);
     div.appendChild(title);
     div.appendChild(content);
